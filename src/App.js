@@ -3,7 +3,6 @@ import { JobList } from 'components/JobList';
 import { TheHeader } from 'components/TheHeader';
 
 function App() {
-  console.log('hello');
   return (
     <>
       <TheHeader />
