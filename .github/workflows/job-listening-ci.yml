@@ -19,8 +19,6 @@ jobs:
           node-version: 16
       - name: Install dependencies
         run: npm install
-      - name: Build
-        run: SKIP_PREFLIGHT_CHECK=true npm run build
   eslint:
     name: ESLint
     runs-on: ubuntu-latest
