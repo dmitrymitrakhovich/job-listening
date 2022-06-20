@@ -4,11 +4,11 @@ import { JobPosition } from './JobPosition';
 const JobList = () => {
   return (
     <div className='job-list'>
-      {data.map(item => (
+      {data.map((item) => (
         <JobPosition key={item.id} {...item} />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export {JobList};
+export { JobList };
