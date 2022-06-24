@@ -11,6 +11,6 @@
     "no-plusplus": "error",
     "max-len": ["error", 120, { "ignoreUrls": true }],
     "comma-dangle": ["error", "always-multiline"],
-    "no-unused-vars": "error"
+    "no-unused-vars": "warn"
   }
 }
